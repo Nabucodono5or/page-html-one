@@ -7,3 +7,20 @@
 body {
     background-color: #f07167;
 }
+
+nav {
+    padding: 2rem 2rem 1.5rem 2rem;
+    background-color: #edf2f4;
+}
+
+div.titulo-esquerda {
+    display: inline-block;
+}
+
+div.menu-direita {
+    display: inline-block;
+}
+
+ul.menu-lista li{
+    display: inline-block;
+}
