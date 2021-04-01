@@ -55,7 +55,7 @@ div.social-media {
 }
 
 div.social-media div {
-    width: 3rem;
+    width: 50%;
     height: 3rem;
     border: 0.1rem solid #edf6f9;
     display: flex;
