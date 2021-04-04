@@ -34,33 +34,33 @@ div.menu-direita {
 }
 
 div.menu-lista-block {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 10rem;
 }
 
 ul.menu-lista li {
-    display: inline-block;
-    margin: 0rem 1rem;
-    padding-top: 0.4rem;
+  display: inline-block;
+  margin: 0rem 1rem;
+  padding-top: 0.4rem;
 }
 
 div.social-media {
-    width: 6rem;
-    height: 6rem;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+  width: 6rem;
+  height: 6rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div.social-media div {
-    width: 50%;
-    height: 3rem;
-    border: 0.1rem solid #edf6f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 3rem;
+  border: 0.1rem solid #edf6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 span.icon {
@@ -68,8 +68,60 @@ span.icon {
   font-size: 100%;
 }
 
-div.wall img{
+div.wall img {
   margin-top: 5rem;
   width: 100%;
   height: 50rem;
+}
+
+div.landig-page {
+  background-color: #edf2f4;
+}
+
+div.about-testimonial {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.conteiner-text {
+  margin: 2rem;
+  text-align: center;
+}
+
+h2.about-text {
+  font-size: 1.3rem;
+}
+
+div.container-testimonial {
+  margin: 1.5rem 10rem 2rem;
+}
+
+p.testimonial {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+span.word-enforced {
+  font-weight: bolder;
+}
+
+div.bottom-about-container {
+  margin: 1.5rem 0rem 2rem;
+  text-align: center;
+}
+
+div.bottom-about {
+  padding: 0.8rem;
+  display: inline-block;
+  border: 3px solid #212529;
+  cursor: pointer;  
+}
+
+h2.bottom-text {
+  color: #212529;
+  font-size: 1rem;
+  margin: 0rem 0.8rem 0rem;
 }
