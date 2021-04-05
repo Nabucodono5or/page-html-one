@@ -125,3 +125,50 @@ h2.bottom-text {
   font-size: 1rem;
   margin: 0rem 0.8rem 0rem;
 }
+
+div.team-container {
+  background-color: #edf2f4;
+  margin-top: 0.2rem;
+  padding: 3rem 16rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+div.text-box {
+  padding: 2rem 0rem;
+}
+
+h2.text-team {
+  font-size: 1.3rem;
+}
+
+div.team-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.team-member {
+
+}
+
+img.team-photo {
+  width: 15rem;
+  height: 20rem;
+}
+
+div.text-member {
+}
+
+div.subtext-member {
+
+}
+
+h3.sub-text-team {
+
+}
+
+div.social-media {
+
+}
