@@ -109,16 +109,19 @@ span.word-enforced {
   font-weight: bolder;
 }
 
-div.bottom-about-container {
+div.bottom-container {
   margin: 1.5rem 0rem 2rem;
+}
+
+div.bottom-about-container {
   text-align: center;
 }
 
-div.bottom-about {
+div.bottom {
   padding: 0.8rem;
   display: inline-block;
   border: 3px solid #212529;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 h2.bottom-text {
@@ -127,13 +130,15 @@ h2.bottom-text {
   margin: 0rem 0.8rem 0rem;
 }
 
-div.team-container {
+div.container {
   background-color: #edf2f4;
   margin-top: 0.2rem;
   padding: 3rem 16rem;
   display: flex;
+}
+
+div.team-container {
   flex-direction: column;
-  
 }
 
 div.text-box {
@@ -168,11 +173,10 @@ div.text-member {
 }
 
 div.subtext-member {
-  
 }
 
 p.subtext-team {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
   color: #6c757d;
   font-size: 0.8rem;
@@ -190,4 +194,39 @@ div.social-member {
 span.icon-social {
   margin: 0rem 0.3rem;
   cursor: pointer;
+}
+
+div.skills-container {
+  flex-direction: column;
+}
+
+div.skill-box {
+  display: flex;
+  flex-direction: row;
+}
+
+div.left-text-skill {
+  display: flex;
+  flex-direction: column;
+}
+
+h2.title-skill {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: #343a40;
+  font-size: 2rem;
+}
+
+h3.subtitle-skill {
+  font-size: 1.5rem;
+  color: #212529;
+}
+
+p.body-skill {
+  margin-top: 1rem;
+  color: #6c757d;
+}
+
+div.right-text-skill {
+  width: 190%;
 }
