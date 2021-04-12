@@ -161,18 +161,16 @@ div.team-member {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 31%;
 }
 
 img.team-photo {
-  width: 15rem;
-  height: 20rem;
+  width: 100%;
+  height: 23rem;
 }
 
 div.text-member {
   padding: 1.5rem 0rem 0rem 0rem;
-}
-
-div.subtext-member {
 }
 
 p.subtext-team {
@@ -289,4 +287,8 @@ div.html-css {
 
 div.seo {
   width: 60%;
+}
+
+div.parallax {
+  /* background-image: url('../src/resources/jesse-gardner-mERlBKFGJiQ-unsplash-min.jpg'); */
 }
