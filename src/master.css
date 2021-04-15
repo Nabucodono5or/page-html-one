@@ -291,4 +291,24 @@ div.seo {
 
 div.parallax {
   background-image: url('../src/resources/jesse-gardner-mERlBKFGJiQ-unsplash-min.jpg');
+  min-height: 300px;
+  filter: brightness(1.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.text-center-image {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #ced4da;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-container {
+  flex-direction: column;
 }
