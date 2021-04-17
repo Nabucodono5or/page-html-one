@@ -290,7 +290,7 @@ div.seo {
 }
 
 div.parallax {
-  background-image: url('../src/resources/jesse-gardner-mERlBKFGJiQ-unsplash-min.jpg');
+  background-image: url("../src/resources/jesse-gardner-mERlBKFGJiQ-unsplash-min.jpg");
   min-height: 300px;
   filter: brightness(1.7);
   background-attachment: fixed;
@@ -311,4 +311,32 @@ div.text-center-image {
 
 .services-container {
   flex-direction: column;
+}
+
+.body-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.service-box {
+  margin: 1rem;
+  text-align: center;
+}
+
+.service-box-title {
+  margin: 1rem 0rem;
+}
+
+.service-title {
+  color: #212529;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-box-body p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #6c757d;
 }
