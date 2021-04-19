@@ -340,3 +340,49 @@ div.text-center-image {
   line-height: 1.3rem;
   color: #6c757d;
 }
+
+.parallax-second {
+  background-image: url("../src/resources/mathilde-langevin-zgCwc0lUAhA-unsplash-min.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.text-up-image {
+  position: absolute;
+  font-size: 1.4rem;
+  color: #212529;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+div.overlay-image {
+  position: absolute;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.8); /* Black see-through */
+  width: 100%;
+  opacity:1;
+  color: white;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+div.text-low-image {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 10rem;
+}
+
+div.text-client {
+  width: 30%;
+  text-align: left;
+}
+
+div.text-client h3 {
+  padding: 1rem 0rem;
+}
