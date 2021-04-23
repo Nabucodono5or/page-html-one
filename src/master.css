@@ -335,9 +335,16 @@ div.text-center-image {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.service-box-body p {
+.service-box-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service-body p {
   font-size: 1rem;
   line-height: 1.3rem;
+  margin-right: 1rem;
   color: #6c757d;
 }
 
@@ -379,10 +386,25 @@ div.text-low-image {
 }
 
 div.text-client {
-  width: 30%;
   text-align: left;
 }
 
 div.text-client h3 {
   padding: 1rem 0rem;
+}
+
+div.service-body {
+  width: 40%;
+}
+
+div.icons-right {
+  color: #6c757d;
+  display: flex;
+  flex-direction: row;
+}
+
+span.big-icon {
+  display: inline-block;
+  font-size: 5rem;
+  margin: 0rem 2rem;
 }
