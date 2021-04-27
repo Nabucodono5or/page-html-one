@@ -332,7 +332,8 @@ div.text-center-image {
   color: #212529;
   font-size: 1rem;
   font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .service-box-body {
@@ -367,13 +368,46 @@ div.text-up-image {
   transform: translate(-50%, -50%);
 }
 
+div.myslides {
+  display: none;
+}
+
+div.dot-box {
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+}
+
+span.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
 div.overlay-image {
   position: absolute;
   bottom: 0;
   background: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.8); /* Black see-through */
   width: 100%;
-  opacity:1;
+  opacity: 1;
   color: white;
   padding: 2.5rem;
   text-align: center;
