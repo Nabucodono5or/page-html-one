@@ -5,7 +5,7 @@ let dotOne = document.getElementById("one");
 let dotTwo = document.getElementById("two");
 
 let slideIndex = 1;
-showSlides(slideIndex);
+// showSlides(slideIndex);
 
 function showSlides(n) {
   let i;

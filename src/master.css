@@ -359,8 +359,10 @@ div.text-center-image {
   position: relative;
 }
 
-div.text-up-image {
+div.text-up-image-box {
   position: absolute;
+  overflow: hidden;
+  width: 700px;
   font-size: 1.4rem;
   color: #212529;
   left: 50%;
@@ -368,9 +370,27 @@ div.text-up-image {
   transform: translate(-50%, -50%);
 }
 
-div.myslides {
-  display: none;
+div.text-up-image {
+  z-index: 3;
+  /* transform: translateX(700px); */
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;  
 }
+
+div.text-up-image-two {
+  z-index: 2;
+  animation-delay: 3s; 
+}
+
+@keyframes opaqTransition {
+  3% { transform: translateX( 0 ); }
+  25% { transform: translateX( 0 ); }
+  28% { transform: translateX( -700px ); }
+  100% { transform: translateX( -700px ); }
+}
+
+/* div.myslides {
+  display: none;
+} */
 
 div.dot-box {
   text-align: center;
@@ -397,7 +417,8 @@ span.dot {
   animation-duration: 1.5s;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
