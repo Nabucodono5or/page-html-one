@@ -359,6 +359,8 @@ div.text-center-image {
   position: relative;
 }
 
+
+/* Não tem como mudar isso, ele é o box dos textos e os centraliza na imagem */
 div.text-up-image-box {
   position: absolute;
   overflow: hidden;
@@ -371,14 +373,14 @@ div.text-up-image-box {
 }
 
 div.text-up-image {
-  z-index: 3;
-  /* transform: translateX(700px); */
-  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;  
+  width: 100%;
+  transform: translateX(700px);
+  /* transform: translateX( 700px ); */
+  animation: opaqTransition 18s cubic-bezier(0, 0, 0, 0.7) infinite;  
 }
 
 div.text-up-image-two {
-  z-index: 2;
-  animation-delay: 3s; 
+  animation-delay: 5s; 
 }
 
 @keyframes opaqTransition {
@@ -410,17 +412,18 @@ span.dot {
   transition: background-color 0.6s ease;
 }
 
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-}
+} */
 
 .active,
 .dot:hover {
   background-color: #717171;
 }
+/* Aqui termina  o texto slideshow*/
 
 div.overlay-image {
   position: absolute;
