@@ -13,6 +13,7 @@ nav {
   display: flex;
   flex-direction: row;
   position: fixed;
+  z-index: 1;
   justify-content: space-between;
   width: 100%;
   background-color: #edf2f4;
@@ -428,8 +429,29 @@ span.dot {
 /* *************************************************** */
 /*                   CRIANDO OUTRO SLIDESHOW            */
 
+.slider {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  color:#212529;
+  overflow: hidden;
+}
 
+.slides {
+  width: 200%;
+  display: flex;
+}
 
+.slides input {
+  display: none;
+}
+
+.slide {
+  margin: 9rem 3rem;
+  width: 600px;
+}
 
 /* *************************************************** */
 
