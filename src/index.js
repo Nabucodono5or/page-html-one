@@ -32,5 +32,5 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-dotOne.addEventListener("click", () => showSlides(slideIndex = 1));
-dotTwo.addEventListener("click", () => showSlides(slideIndex = 2));
+// dotOne.addEventListener("click", () => showSlides(slideIndex = 1));
+// dotTwo.addEventListener("click", () => showSlides(slideIndex = 2));
