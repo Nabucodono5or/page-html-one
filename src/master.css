@@ -450,8 +450,11 @@ span.dot {
 
 .slide {
   margin: 9rem 3rem;
+  margin-right: 4rem;
   width: 600px;
+  transition: 2s;
 }
+
 
 .navigation-manual {
   position: absolute;
@@ -463,11 +466,47 @@ span.dot {
 
 
 .manual-btn {
-  border: 2px solid #790ef3;
+  border: 2px solid #ced4da;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
+}
+
+
+.manual-btn:not(:last-child){
+  margin-right: 0.5rem;
+}
+
+.manual-btn:hover{
+  background-color: #ced4da;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 3rem;
+}  
+
+#radio2:checked ~ .first{
+  margin-left: -47%;
+}  
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  margin-top: 274px;
+}
+
+.navigation-auto div{
+  border: 2px solid #ced4da;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 0.5rem;
 }
 
 /* *************************************************** */
