@@ -509,6 +509,15 @@ span.dot {
   margin-right: 0.5rem;
 }
 
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #ced4da;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #ced4da;
+}
+
+
 /* *************************************************** */
 
 
